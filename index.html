@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<head>
+  <style>
+        body {
+            background-image: url('https://lh3.googleusercontent.com/fife/AK0iWDwDvoPkOYZvI2Hq83VN_-IstpL8KYLR4gM2g8DXGIHoaXdPOu9q2cFaOevwwh4ITuIf0D6bpq370iE-FoSYp5A83NFTcPoX7Buduy0AoYT11yg_2RDt7C8ybHODWqiUMEMP377eje3YqlUuL1ruMU86XOOiZVh2d8K47GM3tZltn8O1PrTHN99i-ZCBebst3ZAo9QyPBo6AVafxJ4vS6JFxfXaWpPZZ7pkNaG5RYh4NM4QLt3KXU4dnbM5L_Z1zuiAZxh4i_9u1gd-poSrMkre8uTGTn4_qPTQmwlbDCQNbbMLLI5Q3R7At24V4s_lzsXh-LsZ4kgynQt5cZKWb9cjrBUPyeUwwUU_A1k59SHc4EAlQQrM5PLXx4CHdOSr-6a0zVm3rr6zqZ_6omQ_TOh_ZXtQU8ptFVooTyZhfSMmlqW8Fs2_LbDwtldWqslElARYFrDca0N3kuIJv5paPWaOYmb3njGgRXU_z6547VKZNFTYuvq2LVVlZEpd4DonDKbR7SBe4g0qUDeG_hs_qph2xKHHp1J_SSsSaQZ0mYiqaQVLVhNciv31Q0GQtijSifOFWajwPYLTi-w438sIUDM4OH0RTrppv4HInwtySxcoptPY7Ryxsph-flebMrdcyUR8Td5GCyH_ptPeMufwKVucBlgHR3ko5y4DY139hg32lrjr7pEFx9wN3ZMJ7jiUoy8E7ZrS5j_40SOrZrKCw02oa7aoMK71mTIgjU40EAXzjpjssKHOrr4IxrImm2XEg8V5MgqNEDg2K5XYOym73WXbgx33bJcmooq49eBsW9OJ32d6jUkHBu8PS7rHJWAOZWJfgarRQK2YpRHLMniCe0LtDyXk3RXRNhhjdA2Yd19xYE0hUGn6jSauU9gPvUHX-ODUjv4PP75Rm1oKkgTDeQ07q4PoONkk8byelY9U-nRUSEJi3y3L6gW48bfpXOB_mfXAacNnWklpyUhRM71f93F9UVxc-ZI4tEBDs_sPWJjdycwlG9emO_3yan_Z_oS78LegFpDOz8pM2pcRv2S1NFeXORSc0GiLpKDu6lLWHIo9O9S-P_k0vxBm2h3gLTio86Ob1ZXoUc_l-bLR_4Q57ECeTOirL=w1920-h901');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Voice Babélica</title>
+</head>
+  
+<body>
+    <div class="container">
+        <h1>The Voice Babélica</h1>
+        <div id="queue">
+            <h2>Próximos à um fazer sucesso babélico:</h2>
+            <ul id="singers-list"></ul>
+        </div>
+        <div id="skipped">
+            <h2>Pulades:</h2>
+            <ul id="skipped-list"></ul>
+        </div>
+        <div id="controls">
+            <input type="text" id="singer-name" placeholder="Nome(es)">
+            <button onclick="addSinger()">Adicionar</button>
+            <button onclick="skipSinger()">Pular 1º da lista</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

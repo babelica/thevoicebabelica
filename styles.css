@@ -1,0 +1,26 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #11c8ed;
+    background-image: url('https://lh3.googleusercontent.com/u/5/drive-viewer/AK7aPaAMn7XwZc2MIOQ2KpQ9VAsG-EKONPyewW-J2Hk-ZrBldeAvAQpzfnatTz0D5UTBcQPxLGqRkIe53ISBmPBUV_b5icsbLQ=w1920-h901');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#controls {
+    margin-top: 20px;
+}
