@@ -1,9 +1,7 @@
 body {
     font-family: 'Pixelify Sans', sans-serif;
     color: #11c8ed;
-    background-image: url('https://lh3.googleusercontent.com/u/5/drive-viewer/AK7aPaAMn7XwZc2MIOQ2KpQ9VAsG-EKONPyewW-J2Hk-ZrBldeAvAQpzfnatTz0D5UTBcQPxLGqRkIe53ISBmPBUV_b5icsbLQ=w1920-h901');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('https://lh3.googleusercontent.com/u/5/drive-viewer/AK7aPaAMn7XwZc2MIOQ2KpQ9VAsG-EKONPyewW-J2Hk-ZrBldeAvAQpzfnatTz0D5UTBcQPxLGqRkIe53ISBmPBUV_b5icsbLQ=w1920-h901') no-repeat center center/cover;
 }
 
 .container {
