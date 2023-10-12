@@ -23,8 +23,8 @@ function addSinger() {
 function skipSinger() {
     const currentSinger = singersList.firstChild;
     if (currentSinger) {
+        const singerName = currentSinger.textContent.trim();
         singersList.removeChild(currentSinger);
-        const singerName = currentSinger.textContent;
         const skippedItem = document.createElement("li");
         skippedItem.textContent = singerName;
         skippedList.appendChild(skippedItem);
