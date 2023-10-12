@@ -12,6 +12,15 @@ body {
     text-align: center;
 }
 
+button.remove-button {
+    background-color: #ff5555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
 ul {
     list-style: none;
     padding: 0;
