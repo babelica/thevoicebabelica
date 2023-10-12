@@ -9,16 +9,20 @@ function addSinger() {
         listItem.textContent = singerName;
         singersList.appendChild(listItem);
         singerNameInput.value = "";
-
+        const skippedItem = document.createElement("li");
+        skippedItem.textContent = singerName;
+        skippedList.appendChild(skippedItem);
         const removeButton = document.createElement("button");
         removeButton.textContent = "X";
         removeButton.className = "remove-button";
         removeButton.onclick = function() {
             singersList.removeChild(listItem);
+            skippedList.removeChild(skippedItem);
         };
         listItem.appendChild(removeButton);
     }
 }
+
 
 function skipSinger() {
     const currentSinger = singersList.firstChild;
