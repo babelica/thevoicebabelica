@@ -9,7 +9,7 @@ function addSinger() {
         listItem.textContent = singerName;
         
         const removeButton = document.createElement("button");
-        removeButton.textContent = "Remover";
+        removeButton.textContent = "X";
         removeButton.onclick = function() {
             singersList.removeChild(listItem);
         };
