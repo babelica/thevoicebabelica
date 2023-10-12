@@ -9,15 +9,12 @@ function addSinger() {
         listItem.textContent = singerName;
         singersList.appendChild(listItem);
         singerNameInput.value = "";
-        const skippedItem = document.createElement("li");
-        skippedItem.textContent = singerName;
-        skippedList.appendChild(skippedItem);
+
         const removeButton = document.createElement("button");
         removeButton.textContent = "X";
         removeButton.className = "remove-button";
         removeButton.onclick = function() {
             singersList.removeChild(listItem);
-            skippedList.removeChild(skippedItem);
         };
         listItem.appendChild(removeButton);
     }
@@ -26,10 +23,9 @@ function addSinger() {
 function skipSinger() {
     const currentSinger = singersList.firstChild;
     if (currentSinger) {
-        const singerName = currentSinger.textContent.trim();
         singersList.removeChild(currentSinger);
         const skippedItem = document.createElement("li");
-        skippedItem.textContent = singerName;
+        skippedItem.textContent = currentSinger.textContent;
         skippedList.appendChild(skippedItem);
     } else {
         alert("Não há cantores na lista para pular.");
