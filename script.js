@@ -7,6 +7,14 @@ function addSinger() {
     if (singerName) {
         const listItem = document.createElement("li");
         listItem.textContent = singerName;
+        
+        const removeButton = document.createElement("button");
+        removeButton.textContent = "Remover";
+        removeButton.onclick = function() {
+            singersList.removeChild(listItem);
+        };
+        listItem.appendChild(removeButton);
+        
         singersList.appendChild(listItem);
         singerNameInput.value = "";
     }
