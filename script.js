@@ -24,8 +24,9 @@ function skipSinger() {
     const currentSinger = singersList.firstChild;
     if (currentSinger) {
         singersList.removeChild(currentSinger);
+        const singerName = currentSinger.textContent;
         const skippedItem = document.createElement("li");
-        skippedItem.textContent = currentSinger.textContent;
+        skippedItem.textContent = singerName;
         skippedList.appendChild(skippedItem);
     } else {
         alert("Não há cantores na lista para pular.");
