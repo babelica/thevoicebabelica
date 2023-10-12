@@ -11,7 +11,7 @@ body {
 }
 
 button.remove-button {
-    background-color: #ff5555;
+    background-color: black;
     color: white;
     border: none;
     padding: 5px 10px;
