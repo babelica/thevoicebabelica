@@ -1,7 +1,7 @@
 body {
     font-family: 'Pixelify Sans', sans-serif;
     color: #11c8ed;
-    background: url("Background.jpeg") no-repeat center center/cover;
+    background-image: url("Background.jpeg") no-repeat center center/cover;
 }
 
 .container {
