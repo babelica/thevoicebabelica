@@ -1,7 +1,7 @@
 body {
     font-family: 'Pixelify Sans', sans-serif;
     color: #11c8ed;
-    background: url('https://github.com/babelica/thevoicebabelica/blob/6d71f000b63a40a572c1873a30694fccb27c6cbf/Background.jpeg') no-repeat center center/cover;
+    background: url('Background.jpeg') no-repeat center center/cover;
 }
 
 .container {
